@@ -1,0 +1,23 @@
+{
+  "name": "imdg",
+  "description": "imdg",
+  "main": "index.html",
+  "authors": [
+    "Hafiz Abu Tahir"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7"
+  },
+  
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}

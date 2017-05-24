@@ -1,0 +1,85 @@
+
+@font-face {
+font-family: '28days';
+font-style: normal;
+font-weight: normal;
+src: local('28 Days Later'), url('28 Days Later.woff') format('woff');
+}
+
+.txt28{
+	font-family: '28days', Arial,sans-serif;
+}
+
+button[class^="im-"]{
+	width: 100px;									/* } overall weight	*/
+	height: 100px;									/* } overall heght	*/
+	border-radius: 10px;
+	border-width: 7px;
+	padding: 0px;
+	white-space: nowrap;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+button[class^="im-"]:hover{
+	filter: drop-shadow(4px 4px 4px #3f9b01);
+	cursor: pointer;
+}
+
+button[class^="im-"] b {
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #888;
+    transform: translate(25px, 25px) rotate(-45deg);
+}
+
+button[class*="-home"]{
+	background-color: #0485c9;
+	color: #000;
+	background-image: url(imbtn/ihome.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+button[class*="-proceed"]{
+	background-color: #f7811d;
+	color: #000;
+	background-image: url(imbtn/proceed.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+button[class*="-lmap"]{
+	background-color: #3f9b01;
+	color: #000;
+	background-image: url(imbtn/lmap.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+button[class*="-pay"]{
+	background-color: #861619;
+	color: #000;
+	background-image: url(imbtn/pay.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+button[class*="-assess"]{
+	background-color: #b90f0f;
+	color: #000;
+	background-image: url(imbtn/assess.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+button[class*="-retake"]{
+	background-color: #fff;
+	color: #932222;
+	background-image: url(imbtn/retake.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}

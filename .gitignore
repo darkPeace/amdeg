@@ -1,0 +1,7 @@
+node_modules/
+libs/
+*.bak.*
+imgs/
+dist/
+*.min.*
+.tmp/
