@@ -4,10 +4,21 @@ angular.module('routerconfig', ['ui.router'])
 	locationProvider.html5Mode(true);
 	
 	stateProvider
-	  .state('home', {
+	  .state('intro', {
 	  	url: '/',
-	  	templateUrl: 'html/home.html',
-	  	controller: 'home-ctrl'
+	  	templateUrl: 'html/intro.html',
+	  	controller: 'intro-ctrl'
+	  })
+
+	  .state('signin', {
+	  	url: '/signin',
+	  	templateUrl: 'html/signin.html',
+	  	controller: 'signin-ctrl'
+	  })
+
+	  .state('register', {
+	  	url: '/regs',
+	  	templateUrl: 'html/register.html'
 	  })
 }])
 

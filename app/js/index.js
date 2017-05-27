@@ -1,6 +1,6 @@
 angular.module('imdg', [
 
 	'routerconfig',
-	'home'
+	'intro'
 
 ]);

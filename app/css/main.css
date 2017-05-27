@@ -1,3 +1,29 @@
+img.logo{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.bg{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.trow{
+	display: table-row;
+}
+
+.tcell{
+	display: table-cell;
+}
+
+.center-y{
+	top: 50vh;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
 
 @font-face {
 font-family: '28days';
