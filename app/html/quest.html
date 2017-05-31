@@ -1,0 +1,32 @@
+<div class="container">
+	<img src="imgs/logo/IMDG Logo.png" class="logo">
+	<div style="margin-top: calc(50vh - 226px);height: 450px">
+		<div class="row">
+			<nav aria-label="..." class="pull-left">
+			  <ul class="pagination">
+			    <li ng-class="{active: $index == now}" ng-repeat="q in questions"><a ng-click="que($index)">{{ $index + 1 }} </a></li>
+			  </ul>
+			</nav>
+
+			<div class="pull-right">
+				<span class="emph clear-fix alert margin0" ng-hide="m === 'LoAd'">Time left: </span>
+				<span class="emph clear-fix alert alert-danger margin0" > {{ m }}:{{ ("0" + s).slice(-2) }}</span> 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+				<div class="btn btn-info disabled">
+					<b>{{ now + 1 }}</b>
+				</div>
+			</div>
+			<div class="col-md-10 well" style="color: #000">
+				<b>{{ questions[now].question }}</b>
+			</div>
+		</div>
+		<div class="row col-md-10 col-md-offset-1">
+			<div class="col-md-6 option ng-class:{'bg-info': key == answd[now]}" ng-repeat="(key,opt) in questions[now].options" ng-click="jwb(now,key)">
+				<p>{{ opt }}</p>
+			</div>
+		</div>
+	</div>
+</div>

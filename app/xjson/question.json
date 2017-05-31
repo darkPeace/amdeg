@@ -1,0 +1,91 @@
+[{
+	"question": "Are \"Batteries wet, filled with acid\" required to be packed in UN specification packagings?",
+	"bool": "true",
+	"answer": "a1",
+	"options": {
+		"a1": "Yes",
+		"b2": "No"
+	}
+},{
+	"question": "Ammonium persulphate and ammonium polyvanadate have been packed into the same closed freight container. All materials are properly marked, labelled, documented and placarded. Is this acceptable?",
+	"bool": "true",
+	"answer": "b2",
+	"options": {
+		"a1": "Yes",
+		"b2": "No"
+	}
+},{
+	"question": "UN2670 may be transported in a UN portable tank",
+	"bool": "true",
+	"answer": "b2",
+	"options": {
+		"a1": "True",
+		"b2": "False"
+	}
+},{
+	"question": "-18°C is equivalent to _____°F.",
+	"bool": "false",
+	"answer": "b2",
+	"options": {
+		"a1": "-37.8",
+		"b2": "-57.8",
+		"c3": "-27.8",
+		"d4": "None of the above"
+	}
+},{
+	"question": "Which of the following is the proper shipping name for UN2470?",
+	"bool": "false",
+	"answer": "b2",
+	"options": {
+		"a1": "PHENYL ACETONITRILE, SOLID",
+		"b2": "PHENYLACETONITRILE, SOLID",
+		"c3": "PHENLACETONITRILE, LIQUID",
+		"d4": "PHENYLACETONITRILE, LIQUID"
+	}
+},{
+	"question": "Which of the following terms most accurately describes the minimum provisions for any packaging closure transported by vessel?",
+	"bool": "false",
+	"answer": "b2",
+	"options": {
+		"a1": "Effectively closed",
+		"b2": "Hermetically sealed",
+		"c3": "Securely closed",
+		"d4": "Securely crimped"
+	}
+},{
+	"question": "Which of the following hazard classes/divisions are not dealt with in the Precedence of Hazard Table?",
+	"bool": "false",
+	"answer": "b2",
+	"options": {
+		"a1": "Classes 1, 2 and liquid desensitized explosives of class 3.",
+		"b2": "Self-reactive substances and desensitized explosives of class/division 4.1.",
+		"c3": "All hazard classes/divisions are dealt with in the Precedence of Hazard Table.",
+		"d4": "Both a and b."
+	}
+},{
+	"question": "The statement \"Substances of class 8 need not carry the subsidiary risk label of class/division 6.1 if the ‘toxicity’ arises solely from the destructive effect on tissue\" is:",
+	"bool": "true",
+	"answer": "b2",
+	"options": {
+		"a1": "True",
+		"b2": "False"
+	}
+},{
+	"question": "What is the UN specification packaging code for a large, rigid plastic packaging?",
+	"bool": "false",
+	"answer": "b2",
+	"options": {
+		"a1": "51H",
+		"b2": "50G",
+		"c3": "50H",
+		"d4": "51G"
+	}
+},{
+	"question": "According to packing instruction LP102, intermediate packagings are necessary.",
+	"bool": "true",
+	"answer": "b2",
+	"options": {
+		"a1": "True",
+		"b2": "False"
+	}
+}]

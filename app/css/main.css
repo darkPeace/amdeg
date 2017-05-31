@@ -1,3 +1,47 @@
+
+.margin0{margin: 0;}
+.emph{font-size: 1.5em; font-weight: bold;}
+
+.option{
+	padding: 6px 12px;
+	border-radius: 10px;
+	margin-bottom: 0;
+	border: 1px #aeb9e6 solid;
+	background-color: #eee;
+	color: #000;
+	text-align: center;
+}
+
+.option:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  /*width: 100%;*/
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  /*background-color: #f5f5f5;*/
+}
+
+.btn-yellow, .panel-yellow > .panel-heading{
+	background-color: #ffb400;
+	border-color: #ffb400;
+	color: #000;
+	font-weight: bold;
+}
+
+.bg1{background-image: url("../imgs/bg/background.jpg"); }
+.bg2{background-image: url("../imgs/bg/background (2).jpg"); }
+.bg3{background-image: url("../imgs/bg/background (3).jpg"); }
+.bg4{background-image: url("../imgs/bg/background (4).jpg"); }
+.bg5{background-image: url("../imgs/bg/background (5).jpg"); }
+.bg6{background-image: url("../imgs/bg/background (6).jpg"); }
+.bg7{background-image: url("../imgs/bg/background (7).jpg"); }
+.bg8{background-image: url("../imgs/bg/background (8).jpg"); }
+
 img.logo{
 	position: absolute;
 	top: 15px;
@@ -5,8 +49,10 @@ img.logo{
 }
 
 .bg{
-	background-size: cover;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	color: #fff;
 }
 
 .trow{

@@ -2,7 +2,7 @@
 	<img src="imgs/logo/IMDG Logo.png" alt="" class="logo">
 	<center class="col-md-12 center-y">
 		<form class="form-signin col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
-			<div class="panel panel-primary">
+			<div class="panel panel-yellow" style="color: black;">
 				<div class="panel-heading">
 					<h3 class="txt28">
 						User Registration
@@ -13,10 +13,10 @@
 						<label class="btn">
 						   Gender:
 						</label>
-						<label class="btn btn-info" uib-btn-radio="'male'">
+						<label class="btn btn-yellow" uib-btn-radio="'male'">
 							Male
 						</label>
-						<label class="btn btn-info" uib-btn-radio="'female'">
+						<label class="btn btn-yellow" uib-btn-radio="'female'">
 							Female
 						</label>
 					</div>
@@ -40,10 +40,16 @@
 					<input type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required>
 
 					<label for="phoneNo" class="sr-only">Phone number</label>
-					<input type="fullname" id="phoneNo" class="form-control input-lg" placeholder="Phone no." required>
+					<input type="text" id="phoneNo" class="form-control input-lg" placeholder="Phone no." required>
 
-					<button class="btn btn-lg btn-primary btn-block txt28" type="submit">Register</button>
-					<a class="pull-right" ui-sref="home">Sign in</a>
+					<label for="seacard" class="sr-only">Seaman Card</label>
+					<input type="text" id="seacard" class="form-control input-lg" placeholder="Seaman Card (optional)">
+
+					<label for="company" class="sr-only">company</label>
+					<input type="text" id="phoneNo" class="form-control input-lg" placeholder="Company" required>
+
+					<button class="btn btn-lg btn-yellow btn-block txt28" type="submit">Register</button>
+					<a class="pull-right" ui-sref="signin">Sign in</a>
 				</form>
 			</div>
 		</div>

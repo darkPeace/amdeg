@@ -1,6 +1,12 @@
 angular.module('imdg', [
 
 	'routerconfig',
-	'intro'
 
+	'services',
+	
+	'intro',
+	'signin',
+	'register',
+	'unity',
+	'exam',
 ]);

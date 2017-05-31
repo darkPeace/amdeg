@@ -18,7 +18,25 @@ angular.module('routerconfig', ['ui.router'])
 
 	  .state('register', {
 	  	url: '/regs',
-	  	templateUrl: 'html/register.html'
+	  	templateUrl: 'html/register.html',
+	  	controller: 'register-ctrl'
+	  })
+
+	  .state('unity', {
+	  	url: '/unity',
+	  	templateUrl: 'html/unity.html',
+	  	controller: 'unity-ctrl'
+	  })
+
+	  .state('exam', {
+	  	url: '/exam',
+	  	templateUrl: 'html/assintro.html'
+	  })
+
+	  .state('quest', {
+	  	//url: '/exam',
+	  	templateUrl: 'html/quest.html',
+	  	controller: 'exam-ctrl'
 	  })
 }])
 
